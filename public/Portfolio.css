@@ -1,0 +1,160 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow-x:hidden;
+}
+body{
+	
+}
+.header{
+	display:flex;
+	justify-content:center;
+	width:100%;
+}
+.headers{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	margin:20px;
+}
+.name{
+	position:absolute;
+	top:20%;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:60px;
+	font-family: 'Lobster', cursive;
+}
+.see{
+	background:rgba(0,0,0, .5);
+	color:white;
+	border:0;
+	font-size:30px;
+	padding:18px 28px;
+	border:3px solid white;
+	font-family: 'Lobster', cursive;
+	border-radius:40px;
+	position:relative;
+	top:-30px;
+}
+.about{
+	width:100%;
+	text-align:center;
+}
+.abme{
+	font-family: 'Lobster', cursive;
+	font-size:45px;
+}
+.circles{
+	display:flex;
+	justify-content:space-around;
+	margin:30px;
+}
+.names{
+	width:300px;
+	line-height:150px;
+	background:#121212;
+	border-radius:50%;
+	text-align:center;
+}
+h3{
+	color:white;
+	margin:0;
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+}
+h4{
+	color:white;
+	margin:0;
+	position:relative;
+	top:-70px;
+	font-family: 'Lobster', cursive;
+	font-size:25px;
+	border-bottom:3px solid white;
+}
+.dancing{
+	display:flex;
+	justify-content:space-around;
+}
+.texts{
+	font-family: 'Lobster', cursive;
+	font-size:25px;
+	border-bottom:3px solid white;
+}
+span{
+	text-align:center;
+}
+.about2{
+	background:gray;
+	text-align:center;
+	background:#121212;
+}
+.abme2{
+	font-family: 'Lobster', cursive;
+	font-size:45px;
+	color:white;
+	padding:10px;
+	width:100%;
+}
+#si{
+	color:white;
+	position:relative;
+	left:36%;
+	animation-name:spin;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+#do{
+	color:white;
+	position:relative;
+	left:36%;
+	animation-name:spin2;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+.hob{
+	display:flex;
+	justify-content:center;
+}
+.hobby{
+	display:none;
+}
+
+@keyframes spin{
+	
+	0%{
+		top:20px
+	}
+	100%{
+		top:0px;
+	}
+}
+	@keyframes spin2{
+	
+	0%{
+		top:-20px
+	}
+	100%{
+		top:0px;
+	}
+	}
+	.contacting{
+		width:400px;
+		line-height:50px;
+		background:#121212;
+		border-radius:50%;
+		text-align:center;
+		margin:auto auto;
+	}
+	#ttt{
+	color:white;
+	font-size:30px;
+
+	}
+	p{
+		color:white;
+		font-family: 'Lobster', cursive;
+	}
